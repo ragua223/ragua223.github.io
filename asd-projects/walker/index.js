@@ -63,19 +63,19 @@ function runProgram() {
   */
   function handleKeyDown(event) {
     if (event.which === KEY.UP) {
-      console.log("w");
+      //console.log("w");
       walker.speedY = -5;
     }
     if (event.which === KEY.DOWN) {
-      console.log("s");
+      //console.log("s");
       walker.speedY = 5;
     }
     if (event.which === KEY.LEFT) {
-      console.log("a");
+      //console.log("a");
       walker.speedX = -5;
     }
     if (event.which === KEY.RIGHT) {
-      console.log("d");
+      //console.log("d");
       walker.speedX = 5;
     }
   }
